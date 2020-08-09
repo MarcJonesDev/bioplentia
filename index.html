@@ -12,6 +12,18 @@
        }
     </style>
     <style>
+         p::selection {
+          color: #ffffff; 
+          background: #19ad25; 
+        }
+        strong::selection {
+          color: #ffffff; 
+          background: #19ad25; 
+        }
+        img::selection {
+          color: #00000000; 
+          background: #00000000; 
+        }
 
         .font200 {
           font-family: Segoe UI;
@@ -29,14 +41,22 @@
          text-align: center; 
         }
 
+        .whitePurple {
+         color: #dfd7ff;
+        }
+
         .bg0 {
-         background: #22212163;
+         background: #2221219c;
         }
 
         .bg1 {
          background: #00000067;
         }
 
+        .bottomLayer {
+         background: #000000;
+         height: 80px;  
+        }
         .null {
          width: 10px;	height: 40px;  
         }
@@ -58,7 +78,7 @@
 
     <div class="bg0">
 
-    <// Logo //>
+      <// Logo //>
       <div class="center"><img src="https://i.imgur.com/AusVi61.png" 
         width="893" height="160" alt="Bioplentia Logo.">
       </div>
@@ -73,7 +93,7 @@
     
       <div class="null"> </div>
 
-    <// Text //>
+      <// Text //>
       <div class="center outline0"><img src="https://i.imgur.com/n6eGrB9.jpg" 
         width="720" height="400" alt="Bioplentia Logo.">
       </div>
@@ -82,11 +102,25 @@
 
       <p class="font200"><strong>What is Bioplentia?</strong></p>
 
-      <p class="font100"><strong>Bioplentia</strong> is a <strong>Minecraft: Bedrock Edition</strong> addon that aims to improve the look of vanilla biomes. Bioplentia greatly changes the look of vanilla biomes, and also adds new ones. Along with new biomes, you will find new blocks, new mobs, various structures etc.</p>
+      <p class="font100 whitePurple"><strong>Bioplentia</strong> is a <strong>Minecraft: Bedrock Edition</strong> addon that aims to improve the look of vanilla biomes. Bioplentia greatly changes the look of vanilla biomes, and also adds new ones. Along with new biomes, you will find new blocks, new mobs, various structures etc.</p>
 
     </div>
 
+    <div class="null"> </div>
 
+    <// Loading //>
+    <div class="center"><img src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator.gif" 
+      width="40" height="40" alt="Loading">
+    </div>
+    
+    <div class="null"> </div>
+
+    <// Info2 //>
+    <div class="bottomLayer">
+
+      <p class="font100">Bioplentia Team © 2020. We are in no way affiliated with or endorsed by Mojang Studios.</p>
+     
+    </div>
 
     <// Test //>
    </body>
