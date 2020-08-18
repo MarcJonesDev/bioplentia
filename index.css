@@ -53,6 +53,10 @@ strong::selection {
     color: #f1f1f1; 
     background: #2f9c19; 
 }
+li::selection {
+   color: #f1f1f1; 
+   background: #2f9c19; 
+}
 img::selection {
     color: #00000000; 
     background: #00000000; 
@@ -129,8 +133,13 @@ a::selection {
    backdrop-filter: blur(5px);
 }
 
+.bg2 {
+   background: #414141de;
+   backdrop-filter: blur(5px);
+}
+
 .bottomLayer {
-   background: #100b30de;
+   background: #0c0f33de;
    backdrop-filter: blur(5px);
    height: 80px;  
 }
@@ -145,7 +154,6 @@ a::selection {
 .null3{
    height: 400px;  
 }
-
 
 .pinkFrame {
    width: 20%;	height: 8%; 
