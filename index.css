@@ -57,6 +57,14 @@ li::selection {
    color: #f1f1f1; 
    background: #2f9c19; 
 }
+a::selection {
+   color: #f1f1f1; 
+   background: #2f9c19; 
+}
+pre::selection {
+   color: #f1f1f1; 
+   background: #2f9c19; 
+}
 img::selection {
     color: #00000000; 
     background: #00000000; 
@@ -84,6 +92,19 @@ a::selection {
    font-size: 200%; 
    word-wrap: break-word;
 }
+
+.font300MCS {
+   font-family: Minecraft Seven;
+   font-size: 300%; 
+   word-wrap: break-word;
+}
+
+.font200MCS {
+   font-family: Minecraft Seven;
+   font-size: 200%; 
+   word-wrap: break-word;
+}
+
 .font100MCS {
    font-family: Minecraft Seven;
    font-size: 100%; 
