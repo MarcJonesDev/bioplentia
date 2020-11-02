@@ -71,11 +71,11 @@ img::selection {
 }
 
 a {
-    color: #2f9c19; 
+    color: #18b544; 
     text-decoration:none
 }
 a:visited {
-    color: #3f692c; 
+    color: #21a345; 
     text-decoration:none
 }
 a::selection {
