@@ -19,11 +19,13 @@ body {
 }
 
 details summary::before {
-   content: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-hamburger--open.gif);
+   content: url(/Bioplentia/siteImg/MenuDefault.png);
  }
+
  details[open] summary::before {
-   content: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-hamburger--close.gif);
+   content: url(/Bioplentia/siteImg/MenuClose.png);
 }
+
 details summary {
    display: block;
 }
